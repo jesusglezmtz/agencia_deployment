@@ -1,0 +1,28 @@
+extends ../layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="Imagen de nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et vehicula neque, a placerat eros. Ut ut libero velit. 
+                p Nunc sollicitudin arcu diam, sollicitudin luctus neque elementum feugiat. Sed ultricies ornare odio, a hendrerit risus venenatis at. Donec cursus tortor mi, a fringilla justo maximus id. Vivamus fermentum id ex id elementum. Duis id aliquam dui. Vivamus in dapibus ligula, sed molestie libero. Aenean faucibus sem in eros consequat, at faucibus tortor ullamcorper.
+                p In hac habitasse platea dictumst. Vivamus et ex vitae justo efficitur malesuada. In sed aliquam massa, ac sagittis turpis. Morbi ac sapien at urna placerat auctor. Sed in fermentum quam. Proin at risus ultricies, semper metus a, gravida mi. Aenean elementum efficitur tortor sed varius. Donec non blandit arcu. Duis malesuada ligula justo, ac pulvinar sapien vehicula a. Praesent id varius eros, id placerat lacus. In hac habitasse platea dictumst.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="",class="img-fluid mb-4")
+                    h2.mb-1 Seguridad
+                    p Aenean faucibus sem in eros consequat, at faucibus tortor ullamcorper.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="",class="img-fluid mb-4")
+                    h2.mb-1 Mejores destinos
+                    p Aenean faucibus sem in eros consequat, at faucibus tortor ullamcorper.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="",class="img-fluid mb-4")
+                    h2.mb-1 Mejor precio
+                    p Aenean faucibus sem in eros consequat, at faucibus tortor ullamcorper.    
